@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "css-loader": "^0.21.0",
+    "style-loader": "^0.12.4",
+    "stylus": "^0.52.4",
+    "stylus-loader": "^1.4.0",
+    "webpack": "^1.12.2",
+  }
+}
