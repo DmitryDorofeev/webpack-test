@@ -1,5 +1,4 @@
 var webpack = require('webpack');
-
 var path = require('path');
 
 var config = {
@@ -7,8 +6,6 @@ var config = {
 	output: {
 		filename: 'bundle.js'
 	},
-	plugins: [
-	],
 	module: {
 		loaders: [
 			{
@@ -21,7 +18,7 @@ var config = {
 		'include css': true,
 		import: path.join(__dirname,'/styles/imported.styl'),
 		define: {
-			kokoko: function(){return 'red'}
+			kokoko: function(){return '#FDE881'}
 		}
 	}
 };
