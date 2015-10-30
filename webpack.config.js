@@ -15,7 +15,6 @@ var config = {
 		]
 	},
 	stylus: {
-		'include css': true,
 		import: path.join(__dirname,'/styles/imported.styl'),
 		define: {
 			kokoko: function(){return '#FDE881'}
